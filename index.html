@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menú - Maná Gourmett</title>
+<link rel="stylesheet" href="styles.css">
+<!-- ...existing code... -->
+</head>
+<body>
+
+<div class="sidebar">
+    <img src="mana.png" alt="Logo Maná Gourmett" class="logo">
+    <h1>Maná Gourmett</h1>
+    <div class="botones">
+        <button id="btn-inicio" class="active">🏠 Inicio</button>
+        <button id="btn-menu">🍽️ Menú</button>
+        <a href="https://wa.me/573143544663?text=Hola%2C%20quiero%20hacer%20un%20pedido%20a%20domicilio%20por%20favor." target="_blank" class="domicilio">📱 Domicilio</a>
+        <button id="btn-ubicacion">📍 Ubicación</button>
+    </div>
+</div>
+
+<div class="main-content">
+    <!-- INICIO -->
+    <div id="section-inicio" class="section active">
+        <div style="text-align:center;">
+            <img src="mana.png" alt="Logo Maná Gourmett" class="logo" style="margin-bottom:20px;">
+            <h1 style="color:#C9B037;text-shadow:0 1px 0 #fff, 0 1px 1px #eee;">Maná Gourmett</h1>
+        </div>
+        <p style="margin-top:30px; font-size:1.15em; text-align:justify;">
+            Restaurante Maná es un espacio dedicado a la tradición y el sabor, pensado para compartir en familia y con amigos. Se caracteriza por ofrecer un ambiente cálido y acogedor, donde la buena atención y la comida abundante son protagonistas.
+            <br><br>
+            Su menú combina recetas típicas con preparaciones modernas, resaltando la esencia de la cocina casera. En Maná se encuentran carnes jugosas, asados, sopas tradicionales, comidas rápidas y una amplia variedad de bebidas para todos los gustos.
+            <br><br>
+            El restaurante busca que cada visita sea una experiencia completa: un lugar donde la comida, la música y la decoración se unen para generar un ambiente auténtico y lleno de vida.
+            <br><br>
+            Con un servicio cercano y precios justos, Maná se ha convertido en un punto de encuentro ideal para quienes disfrutan de la buena mesa y de compartir momentos especiales.
+        </p>
+    </div>
+    <!-- MENÚ -->
+    <div id="section-menu" class="section">
+        <div class="promo">
+            Menú Ejecutivo: $11.000 | Menú Súper Ejecutivo: $15.000  
+        </div>
+        <h2>Bandejas</h2>
+        <ul>
+            <li><span>Bandeja Paisa</span> <span class="precio">$30.000</span></li>
+            <li><span>Bandeja con Pollo</span> <span class="precio">$18.000</span></li>
+            <li><span>Bandeja con Gallina</span> <span class="precio">$32.000</span></li>
+        </ul>
+        <h2>Sopas</h2>
+        <ul>
+            <li><span>Sancocho de Gallina</span> <span class="precio">$30.000</span></li>
+            <li><span>Sancocho de Pescado</span> <span class="precio">$30.000</span></li>
+            <li><span>Ajiaco con Pollo</span> <span class="precio">$18.000</span></li>
+        </ul>
+        <h2>Bebidas Frías</h2>
+        <ul>
+            <li><span>Jugo en Agua</span> <span class="precio">$6.000</span></li>
+            <li><span>Jugo en Leche</span> <span class="precio">$7.000</span></li>
+            <li><span>Limonada Natural</span> <span class="precio">$6.000</span></li>
+            <li><span>Limonada de Coco</span> <span class="precio">$8.000</span></li>
+            <li><span>Limonada de Hierbabuena</span> <span class="precio">$6.000</span></li>
+            <li><span>Cocktalls</span> <span class="precio">$12.000</span></li>
+            <li><span>Cerveza Importada</span> <span class="precio">$6.000</span></li>
+            <li><span>Jugo de Naranja</span> <span class="precio">$7.000</span></li>
+        </ul>
+        <h2>Bebidas Calientes</h2>
+        <ul>
+            <li><span>Capuchino</span> <span class="precio">$8.000</span></li>
+            <li><span>Mocachino</span> <span class="precio">$5.000</span></li>
+            <li><span>Café Expreso</span> <span class="precio">$3.000</span></li>
+            <li><span>Vino Caliente</span> <span class="precio">$12.000</span></li>
+        </ul>
+        <h2>Carnes</h2>
+        <ul>
+            <li><span>Mamona 500gr</span> <span class="precio">$30.000</span></li>
+            <li><span>Costillas 500gr</span> <span class="precio">$30.000</span></li>
+            <li><span>Ternera 500gr</span> <span class="precio">$30.000</span></li>
+            <li><span>Cochinillo 500gr</span> <span class="precio">$30.000</span></li>
+            <li><span>Churrasco 500gr</span> <span class="precio">$30.000</span></li>
+            <li><span>Chicharrón</span> <span class="precio">$29.000</span></li>
+            <li><span>Parrilla Personal</span> <span class="precio">$32.000</span></li>
+            <li><span>Parrillada para 2</span> <span class="precio">$42.000</span></li>
+            <li><span>Parrillada Familiar</span> <span class="precio">$84.000</span></li>
+            <li><span>Sobrebarriga al Horno 500gr</span> <span class="precio">$29.000</span></li>
+            <li><span>Chigüire 500gr</span> <span class="precio">$29.000</span></li>
+            <li><span>Chorizo Maná</span> <span class="precio">$8.000</span></li>
+        </ul>
+        <h2>Aves</h2>
+        <ul>
+            <li><span>Pollo Entero Maná</span> <span class="precio">$35.000</span></li>
+            <li><span>Medio Pollo Maná</span> <span class="precio">$18.000</span></li>
+            <li><span>Cuarto de Pollo Maná</span> <span class="precio">$12.000</span></li>
+            <li><span>Gallina Completa</span> <span class="precio">$80.000</span></li>
+            <li><span>Media Gallina</span> <span class="precio">$40.000</span></li>
+            <li><span>Cuarto de Gallina</span> <span class="precio">$20.000</span></li>
+            <li><span>Pechuga Marinera</span> <span class="precio">$33.000</span></li>
+            <li><span>Pechuga Gratinada</span> <span class="precio">$32.000</span></li>
+        </ul>
+        <h2>Pescados</h2>
+        <ul>
+            <li><span>Trucha al Ajillo</span> <span class="precio">$30.000</span></li>
+            <li><span>Trucha Gratinada</span> <span class="precio">$32.000</span></li>
+            <li><span>Trucha Marinera</span> <span class="precio">$33.000</span></li>
+            <li><span>Mojarra al Horno</span> <span class="precio">$38.000</span></li>
+            <li><span>Cachama Maná</span> <span class="precio">$30.000</span></li>
+            <li><span>Bagre en Salsa</span> <span class="precio">$29.000</span></li>
+            <li><span>Viudo de Capaz</span> <span class="precio">$30.000</span></li>
+            <li><span>Cazuela de Mariscos</span> <span class="precio">$33.000</span></li>
+        </ul>
+        <h2>Comidas Rápidas</h2>
+        <ul>
+            <li><span>Hamburguesa Maná</span> <span class="precio">$7.000</span></li>
+            <li><span>Hamburguesa Maná del Rancho</span> <span class="precio">$10.000</span></li>
+            <li><span>Hamburguesa Especial</span> <span class="precio">$12.000</span></li>
+            <li><span>Hamburguesa caido del cielo</span> <span class="precio">$15.000</span></li>
+            <li><span>Hamburguesa super Maná</span> <span class="precio">$21.000</span></li>
+            <li><span>Perro Maná</span> <span class="precio">$7.000</span></li>
+            <li><span>Perro Maná del Rancho</span> <span class="precio">$10.000</span></li>
+            <li><span>Perro Especial</span> <span class="precio">$12.000</span></li>
+            <li><span>Perro caido del cielo</span> <span class="precio">$15.000</span></li>
+            <li><span>Salchipapa Maná</span> <span class="precio">$10.000</span></li>
+            <li><span>Salchipapa Maná del Rancho</span> <span class="precio">$12.000</span></li>
+            <li><span>Salchipapa Especial</span> <span class="precio">$15.000</span></li>
+            <li><span>Salchipapa caido del cielo</span> <span class="precio">$18.000</span></li>
+            <li><span>Salchipapa triple Maná</span> <span class="precio">$35.000</span></li>
+            <li><span>Arepa Maná</span> <span class="precio">$10.000</span></li>
+            <li><span>Arepa Maná del Rancho</span> <span class="precio">$12.000</span></li>
+            <li><span>Arepa Especial</span> <span class="precio">$15.000</span></li>
+            <li><span>Arepa caida del cielo</span> <span class="precio">$18.000</span></li>
+            <li><span>Burrito Maná</span> <span class="precio">$10.000</span></li>
+            <li><span>Burrito Maná del Rancho</span> <span class="precio">$12.000</span></li>
+            <li><span>Burrito Especial</span> <span class="precio">$15.000</span></li>
+            <li><span>Burrito caido del cielo</span> <span class="precio">$18.000</span></li>
+            <li><span>Mazorcada Maná</span> <span class="precio">$12.000</span></li>
+            <li><span>Mazorcada Maná del Rancho</span> <span class="precio">$25.000</span></li>
+            <li><span>Platacón Maná</span> <span class="precio">$18.000</span></li>
+            <li><span>Platacón Maná del Rancho</span> <span class="precio">$26.000</span></li>
+            <li><span>Platacón Especial</span> <span class="precio">$30.000</span></li>
+            <li><span>Platacón caido del cielo</span> <span class="precio">$35.000</span></li>
+            <li><span>Dorilocos Maná</span> <span class="precio">$12.000</span></li>
+            <li><span>Dorilocos Maná del Rancho</span> <span class="precio">$15.000</span></li>
+            <li><span>Dorilocos Especial</span> <span class="precio">$18.000</span></li>
+            <li><span>Dorilocos caido del cielo</span> <span class="precio">$21.000</span></li>
+        </ul>
+    </div>
+    <!-- UBICACION -->
+    <div id="section-ubicacion" class="section">
+        <header>
+            <h1 style="color:#C9B037;">¿Dónde estamos?</h1>
+        </header>
+        <div style="text-align:center;">
+            <p>Encuéntranos en nuestra sede principal.</p>
+            <a href="https://maps.app.goo.gl/xzKZhU3UoSKnh6y4A?g_st=aw" target="_blank" style="color:#C9B037;font-weight:bold;">Ver en Google Maps</a>
+        </div>
+        <iframe class="ubicacion-mapa" src="https://www.google.com/maps?q=4.3365892,-74.3655057&hl=es;z=17&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+
+<script>
+    // Botones y secciones
+    const btnInicio = document.getElementById('btn-inicio');
+    const btnMenu = document.getElementById('btn-menu');
+    const btnUbicacion = document.getElementById('btn-ubicacion');
+    const sectionInicio = document.getElementById('section-inicio');
+    const sectionMenu = document.getElementById('section-menu');
+    const sectionUbicacion = document.getElementById('section-ubicacion');
+    // Mostrar solo la sección seleccionada
+    btnInicio.onclick = function() {
+        btnInicio.classList.add('active');
+        btnMenu.classList.remove('active');
+        btnUbicacion.classList.remove('active');
+        sectionInicio.classList.add('active');
+        sectionMenu.classList.remove('active');
+        sectionUbicacion.classList.remove('active');
+    };
+    btnMenu.onclick = function() {
+        btnMenu.classList.add('active');
+        btnInicio.classList.remove('active');
+        btnUbicacion.classList.remove('active');
+        sectionMenu.classList.add('active');
+        sectionInicio.classList.remove('active');
+        sectionUbicacion.classList.remove('active');
+    };
+    btnUbicacion.onclick = function() {
+        btnUbicacion.classList.add('active');
+        btnInicio.classList.remove('active');
+        btnMenu.classList.remove('active');
+        sectionUbicacion.classList.add('active');
+        sectionInicio.classList.remove('active');
+        sectionMenu.classList.remove('active');
+    };
+</script>
+</body>
+</html>
