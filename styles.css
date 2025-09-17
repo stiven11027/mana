@@ -1,8 +1,8 @@
 /* mana-main/styles.css */
 :root {
-    --dorado: #C9B037;
+    --dorado: #820000;
     --gris-marmol: #f5f5f5;
-    --gris-texto: #444;
+    --gris-texto: #ffffff;
     --blanco: #fff;
 }
 body {
@@ -98,7 +98,7 @@ body {
     width: 100%;
     padding-bottom: 40px;
     min-height: 100vh;
-    background: rgba(255,255,255,0.75);
+    background: transparent;
     border-radius: 0 0 16px 16px;
     box-shadow: 0 2px 12px rgba(201,176,55,0.06);
 }
@@ -315,5 +315,44 @@ li {
     .precio {
         font-size: 1.08em;
         margin-top: 2px;
+    }
+}
+/* Mejora la legibilidad en la sección de menú y usa el color #8200005 (ajustado a #820005 por formato hexadecimal válido) */
+
+#section-menu {
+    background: rgba(255,255,255,0.92);
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(130,0,5,0.08);
+    color: #222;
+}
+
+#section-menu h2 {
+    color: #820005;
+    border-bottom: 2px solid #820005;
+}
+
+#section-menu .promo {
+    background: #820005;
+    color: #fff;
+    border: none;
+    box-shadow: 0 2px 8px rgba(130,0,5,0.10);
+}
+
+#section-menu .precio {
+    color: #820005;
+}
+
+#section-menu ul, #section-menu li {
+    color: #222;
+}
+
+/* Mejor contraste para móviles */
+@media (max-width: 600px) {
+    #section-menu {
+        background: rgba(255,255,255,0.98);
+        padding: 8px 2vw;
+    }
+    #section-menu h2 {
+        font-size: 1.1em;
     }
 }
